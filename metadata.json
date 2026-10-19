@@ -2,5 +2,7 @@
   "name": "Sand Lake Dental — Dr. Ziyad Maali, DMD | Premier Orlando Cosmetic & Implant Dentistry",
   "description": "Experience world-class cosmetic, implant, and family dentistry at Sand Lake Dental in Orlando and Maitland, FL. Led by Dr. Ziyad Maali, DMD, FAGD.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
