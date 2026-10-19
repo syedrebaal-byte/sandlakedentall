@@ -1,5 +1,6 @@
 import React from 'react';
 import { Cpu, Zap, ShieldCheck, Sparkles, CheckCircle2 } from 'lucide-react';
+import { IMAGES } from '../assets/images';
 
 export const TechnologySuite: React.FC = () => {
   const technologies = [
@@ -51,10 +52,9 @@ export const TechnologySuite: React.FC = () => {
           <div className="lg:col-span-6 rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-white relative group">
             <div className="aspect-[16/10] overflow-hidden bg-slate-100">
               <img
-                src="/src/assets/images/modern_dental_technology_1792422232571.jpg"
+                src={IMAGES.technology}
                 alt="iTero 3D digital intraoral scanning at Sand Lake Dental Orlando"
                 className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                referrerPolicy="no-referrer"
                 loading="lazy"
               />
             </div>
@@ -75,10 +75,9 @@ export const TechnologySuite: React.FC = () => {
           <div className="lg:col-span-6 rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-white relative group">
             <div className="aspect-[16/10] overflow-hidden bg-slate-100">
               <img
-                src="/src/assets/images/serene_patient_lounge_1792422233199.jpg"
+                src={IMAGES.lounge}
                 alt="Serene boutique reception and patient lounge at Sand Lake Dental"
                 className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                referrerPolicy="no-referrer"
                 loading="lazy"
               />
             </div>

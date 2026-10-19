@@ -1,4 +1,5 @@
 import { DoctorInfo, OfficeLocation, ServiceDetail, Testimonial, BeforeAfterCase } from '../types/dental';
+import { IMAGES } from '../assets/images';
 
 export const DOCTOR_MAALI: DoctorInfo = {
   id: 'dr-maali',
@@ -25,7 +26,7 @@ Voted a "Top Orlando Dentist" consecutively for over 10 years, Dr. Maali combine
     'Member, International Academy of Facial Aesthetics (IAFA)',
     'Voted Top Orlando Dentist consecutively for 10+ years',
   ],
-  image: '/src/assets/images/dentist_doctor_maali_1792422230983.jpg',
+  image: IMAGES.doctorMaali,
 };
 
 export const ASSOCIATE_DOCTORS = [
@@ -297,21 +298,21 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     treatment: '8 Handcrafted Porcelain Veneers',
     doctor: 'Dr. Ziyad Maali, DMD, FAGD',
     timeframe: '2 Visits over 14 Days',
-    description: 'Patient presented with severe enamel erosion, micro-fractures, and uneven incisal edges. Restored with micro-layered feldspathic porcelain matched to the patient’s facial symmetry.',
-    beforeImg: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
+    description: 'Patient presented with severe incisal wear, micro-fractures, and diastema gap. Restored with micro-layered feldspathic porcelain matched to the patient’s facial symmetry and natural translucency.',
+    beforeImg: IMAGES.beforeTeeth,
+    afterImg: IMAGES.afterVeneers,
     tags: ['Porcelain Veneers', 'Smile Makeover', 'Aesthetics'],
   },
   {
     id: 'case-2',
-    title: 'Single-Visit Restoration & Implant Crown',
-    treatment: 'Titanium Implant + FastMill iO Custom Zirconia Crown',
+    title: 'Natural Smile Makeover & Enamel Recontouring',
+    treatment: 'Custom Ceramic Laminates & Whitening',
     doctor: 'Dr. Ziyad Maali, DMD, FAGD',
-    timeframe: 'Guided Placement & Single-Visit Restoration',
-    description: 'Patient experienced a non-restorable fractured premolar. Replaced with 3D CBCT guided implant and an in-office milled crown with precise contact points.',
-    beforeImg: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=800&q=80',
-    tags: ['Dental Implants', 'Glidewell FastMill', 'Restorative'],
+    timeframe: 'Digital iTero Scan + Placement in 10 Days',
+    description: 'Patient desired a brighter, symmetrical smile for upcoming photography. Restored with conservative minimal-prep veneers and in-office photonic whitening.',
+    beforeImg: IMAGES.beforeTeeth,
+    afterImg: IMAGES.cosmeticSmile,
+    tags: ['Cosmetic Makeover', 'iTero 3D', 'Restorative'],
   },
 ];
 

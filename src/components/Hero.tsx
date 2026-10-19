@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Phone, ShieldCheck, Award, Sparkles, CheckCircle2 } from 'lucide-react';
+import { IMAGES } from '../assets/images';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -77,10 +78,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200/90 aspect-[4/3] lg:aspect-[5/4] bg-slate-100">
               <img
-                src="/src/assets/images/hero_luxury_dental_interior_1792422230907.jpg"
+                src={IMAGES.hero}
                 alt="Modern luxury Sand Lake Dental suite with panoramic views, surgical lighting, and ergonomic patient chair"
                 className="w-full h-full object-cover object-center"
-                referrerPolicy="no-referrer"
                 loading="eager"
               />
               {/* Subtle glass overlay banner with verified doctor credential */}
